@@ -15,31 +15,19 @@ cook_increment: minutes # set to minutes or hours
 cook_time: 8 #in minutes or hours #can be BLANK
 calories: 300 #in kcal #can be BLANK
 
-# For ingredient subheadings (if you use them), please use the h4 header.  For print view I have those elements targeted
+steps:
+  - ingredients:
+      - amount: 1
+        unit: "cup"
+        item: "First Ingredient"
+      - amount: 2
+        unit: "tablespoon"
+        item: "Second Ingredient"
+    text: "Step One instructions."
+  - ingredients:
+      - amount: 1
+        unit: "teaspoon"
+        item: "Third Ingredient"
+      - "Fourth Ingredient (unscaled)"
+    text: "Step Two instructions."
 ---
-
-
-## Ingredients
-
-#### Ingredient Subheading
-
-- First Ingredient
-- Second Ingredient [^1]
-- Third Ingredient
-- Fourth Ingredient
-- Fifth Ingredient
-
-
-## Directions
-
-1. Step One
-   1. Sub Step One
-2. Step Two
-3. Step Three
-4. Step Four
-5. Step Five
-6. Step Six
-
-#### Footnotes
-
-[^1]: Footnote 1
