@@ -30,3 +30,4 @@ jobs:
           publish_dir: kyle_recipes/public
           publish_branch: live
           commit_message: "Publish site on ${{ github.event.head_commit.timestamp }}"
+          cname: "recipes.kylecooke.me.uk"
