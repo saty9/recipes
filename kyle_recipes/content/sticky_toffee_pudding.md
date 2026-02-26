@@ -11,7 +11,6 @@ prep_time: 45 # Date prep (15) + Batter (20) + Sauce (10)
 cook: true
 cook_increment: minutes
 cook_time: 30
-calories: 520
 
 steps:
 - ingredients:

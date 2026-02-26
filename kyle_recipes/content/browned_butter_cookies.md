@@ -11,7 +11,6 @@ prep_time: 85 # Brown/Cool (15) + Mix (10) + Chill (60)
 cook: true
 cook_increment: minutes
 cook_time: 14
-calories: 350
 
 steps:
   - ingredients:

@@ -11,7 +11,6 @@ prep_time: 310 # Pastry (10) + Chill (30) + Blind Bake (20) + Filling (10) + Fin
 cook: true
 cook_increment: minutes
 cook_time: 20
-calories: 380
 
 steps:
 - ingredients:

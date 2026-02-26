@@ -11,7 +11,6 @@ prep_time: 195 # Creaming (10) + Mixing (5) + Fridge (180)
 cook: true
 cook_increment: minutes
 cook_time: 10
-calories: 180
 
 steps:
   - ingredients:

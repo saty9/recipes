@@ -11,7 +11,6 @@ prep_time: 20
 cook: true
 cook_increment: minutes
 cook_time: 25
-calories: 450
 
 steps:
   - ingredients:

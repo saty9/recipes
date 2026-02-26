@@ -9,7 +9,6 @@ tags: ["ice cream", "dessert", "fruit"]
 servings: 6
 prep_time: 10 # Blend (10) + Freezing time
 cook: false
-calories: 210
 
 steps:
   - ingredients:

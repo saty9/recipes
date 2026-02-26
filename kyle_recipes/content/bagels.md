@@ -11,7 +11,6 @@ prep_time: 90 # Bloom (10) + Knead (10) + Rise (60) + Rest (10)
 cook: true
 cook_increment: minutes
 cook_time: 20
-calories: 280
 
 steps:
   - ingredients:

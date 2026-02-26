@@ -11,7 +11,6 @@ prep_time: 30
 cook: true
 cook_increment: minutes
 cook_time: 45
-calories: 0
 
 steps:
   - ingredients:

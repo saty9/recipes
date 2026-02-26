@@ -11,7 +11,6 @@ prep_time: 20
 cook: true
 cook_increment: minutes
 cook_time: 85 # Simmer (40) + Bake (45)
-calories: 550
 
 steps:
   - ingredients:
