@@ -21,7 +21,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
-        run: hugo -s kyle_recipes
+        run: hugo -s kyle_recipes -b https://recipes.kylecooke.me.uk/
 
       - name: Deploy to live branch
         uses: peaceiris/actions-gh-pages@v3
