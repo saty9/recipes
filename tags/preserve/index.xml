@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preserve on My Cookbook</title>
-    <link>http://example.org/tags/preserve/</link>
+    <link>https://recipes.kylecooke.me.uk/tags/preserve/</link>
     <description>Recent content in Preserve on My Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Jan 2026 10:03:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/tags/preserve/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://recipes.kylecooke.me.uk/tags/preserve/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rhubarb compote</title>
-      <link>http://example.org/rhubarb_compote/</link>
+      <link>https://recipes.kylecooke.me.uk/rhubarb_compote/</link>
       <pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
-      <guid>http://example.org/rhubarb_compote/</guid>
+      <guid>https://recipes.kylecooke.me.uk/rhubarb_compote/</guid>
       <description></description>
     </item>
   </channel>

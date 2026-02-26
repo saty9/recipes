@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dinner on My Cookbook</title>
-    <link>http://example.org/tags/dinner/</link>
+    <link>https://recipes.kylecooke.me.uk/tags/dinner/</link>
     <description>Recent content in Dinner on My Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Jan 2026 19:10:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/tags/dinner/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://recipes.kylecooke.me.uk/tags/dinner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Venison Cottage Pie</title>
-      <link>http://example.org/venison_cottage_pie/</link>
+      <link>https://recipes.kylecooke.me.uk/venison_cottage_pie/</link>
       <pubDate>Sat, 24 Jan 2026 19:10:00 +0000</pubDate>
-      <guid>http://example.org/venison_cottage_pie/</guid>
+      <guid>https://recipes.kylecooke.me.uk/venison_cottage_pie/</guid>
       <description></description>
     </item>
   </channel>

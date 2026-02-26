@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cookies on My Cookbook</title>
-    <link>http://example.org/tags/cookies/</link>
+    <link>https://recipes.kylecooke.me.uk/tags/cookies/</link>
     <description>Recent content in Cookies on My Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Jan 2026 11:20:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/tags/cookies/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://recipes.kylecooke.me.uk/tags/cookies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Browned Butter Cookies</title>
-      <link>http://example.org/browned_butter_cookies/</link>
+      <link>https://recipes.kylecooke.me.uk/browned_butter_cookies/</link>
       <pubDate>Sat, 31 Jan 2026 11:20:00 +0000</pubDate>
-      <guid>http://example.org/browned_butter_cookies/</guid>
+      <guid>https://recipes.kylecooke.me.uk/browned_butter_cookies/</guid>
       <description></description>
     </item>
     <item>
       <title>Peanut Butter Cookies</title>
-      <link>http://example.org/peanut_butter_cookies/</link>
+      <link>https://recipes.kylecooke.me.uk/peanut_butter_cookies/</link>
       <pubDate>Sat, 24 Jan 2026 18:40:00 +0000</pubDate>
-      <guid>http://example.org/peanut_butter_cookies/</guid>
+      <guid>https://recipes.kylecooke.me.uk/peanut_butter_cookies/</guid>
       <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Chilling:&lt;/strong&gt; This helps prevent the cookies from spreading out too much in the oven and makes shaping them easier too.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

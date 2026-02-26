@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bread on My Cookbook</title>
-    <link>http://example.org/tags/bread/</link>
+    <link>https://recipes.kylecooke.me.uk/tags/bread/</link>
     <description>Recent content in Bread on My Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Jan 2026 18:36:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/tags/bread/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://recipes.kylecooke.me.uk/tags/bread/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bagels</title>
-      <link>http://example.org/bagels/</link>
+      <link>https://recipes.kylecooke.me.uk/bagels/</link>
       <pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
-      <guid>http://example.org/bagels/</guid>
+      <guid>https://recipes.kylecooke.me.uk/bagels/</guid>
       <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Just pushing down on one side of a bagel while its boiling should flip it.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ice Cream on My Cookbook</title>
-    <link>http://example.org/tags/ice-cream/</link>
+    <link>https://recipes.kylecooke.me.uk/tags/ice-cream/</link>
     <description>Recent content in Ice Cream on My Cookbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Jan 2026 11:41:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/tags/ice-cream/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://recipes.kylecooke.me.uk/tags/ice-cream/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Ice Cream</title>
-      <link>http://example.org/raspberry_ice_cream/</link>
+      <link>https://recipes.kylecooke.me.uk/raspberry_ice_cream/</link>
       <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
-      <guid>http://example.org/raspberry_ice_cream/</guid>
+      <guid>https://recipes.kylecooke.me.uk/raspberry_ice_cream/</guid>
       <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adjust the quantity of raspberries and sugar within the provided ranges based on your preferred sweetness and tartness.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
