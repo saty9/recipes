@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>My Cookbook | Strawberry Tarts</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/logo.webp" width="200" height="50">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+                
+                    
+                    <a class="navbar-item" href="/">
+                    
+                    
+                    <i class="fas fa-home pr-2"></i> 
+                    Home
+                    </a>
+                
+                    
+                    <a class="navbar-item" href="/tags/">
+                    
+                    
+                    <i class="fas fa-tags pr-2"></i> 
+                    Categories
+                    </a>
+                
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">View Recipe</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://example.org/images/recipe-headers/strawberry-tarts.webp alt="Placeholder image">
+                </figure>
+                <div id="printButton" style="position: absolute; bottom: 0; right: 0;" class="is-rounded">
+                    <a href="/print/strawberry_tarts/print.html" target="_blank"><i class="fas fa-print fa-3x"></i></a>
+                </div>
+            </div>
+            
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> Strawberry Tarts</h1>
+                <p class="subtitle is-italic"> </p>
+                <div class="container has-text-right">
+                    
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="01-31-2026">Jan 31, 2026</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://example.org/tags/baking">baking</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://example.org/tags/dessert">dessert</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://example.org/tags/fruit">fruit</a>
+
+
+                </div>
+                <hr>
+            </div>
+            <div class="container has-text-centered">    
+                <div class="columns is-mobile is-multiline">
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-concierge-bell fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Servings</p>
+        <div></div>
+        
+        
+        <div class="recipe-servings" data-base-servings="8">
+            <input id="servingsInput" class="input is-small" type="number" min="1" step="1" value="8" aria-label="Servings">
+            <span class="recipe-servings-label">servings</span>
+        </div>
+        
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-hourglass-half fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Prep time</p>
+        <div></div>
+        310 Minutes
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-temperature-high fa-lg"></i>
+        <div></div>
+        
+            <p class="has-text-weight-bold is-size-6">Cooking Time</p>
+        
+        <div></div>
+        
+            20 Minutes
+        
+    </div>
+    <div class="column is-half-mobile">
+        <i class="fas fa-fire fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Calories</p>
+        <div></div>
+        --- Kcal
+    </div>     
+</div>
+
+            </div>
+            <hr>
+            <p class="subtitle is-italic"> </p>
+            
+            <div class="content recipe-steps">
+                <h2>Steps</h2>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="200" data-base-unit="g" data-base-unit-plural="">200 g</span> <span class="recipe-ingredient-name">plain flour</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="125" data-base-unit="g" data-base-unit-plural="">125 g</span> <span class="recipe-ingredient-name">unsalted butter</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="30" data-base-unit="g" data-base-unit-plural="">30 g</span> <span class="recipe-ingredient-name">icing sugar</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="large" data-base-unit-plural="">1 large</span> <span class="recipe-ingredient-name">egg yolk</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="tsp" data-base-unit-plural="">1 tsp</span> <span class="recipe-ingredient-name">cold water</span><span class="recipe-ingredient-note">, <em>only if needed</em></span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 1</h4>
+                            <div class="recipe-step-text">
+                                Make the pastry. Line the tart tins immediately and chill in the fridge for 30 minutes.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div>
+                        <h4 class="title is-6">Step 2</h4>
+                        <div class="recipe-step-text">
+                            Preheat oven to 170°C Fan. Blind bake the crust with beans for 15 minutes, then remove beans and bake for an additional 5 minutes.
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="350" data-base-unit="ml" data-base-unit-plural="">350 ml</span> <span class="recipe-ingredient-name">full fat milk</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 3</h4>
+                            <div class="recipe-step-text">
+                                In a pan, bring the milk to just before boiling point, then remove from heat and let cool for a few minutes.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="4" data-base-unit="large" data-base-unit-plural="">4 large</span> <span class="recipe-ingredient-name">egg yolks</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="100" data-base-unit="g" data-base-unit-plural="">100 g</span> <span class="recipe-ingredient-name">caster sugar</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 4</h4>
+                            <div class="recipe-step-text">
+                                In a separate bowl, whisk the egg yolks and caster sugar together until they form a thick slurry.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="15" data-base-unit="g" data-base-unit-plural="">15 g</span> <span class="recipe-ingredient-name">plain flour</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="15" data-base-unit="g" data-base-unit-plural="">15 g</span> <span class="recipe-ingredient-name">cornflour</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 5</h4>
+                            <div class="recipe-step-text">
+                                Whisk the flour and cornflour into the egg mixture until smooth.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div>
+                        <h4 class="title is-6">Step 6</h4>
+                        <div class="recipe-step-text">
+                            Slowly pour the warm milk into the egg mixture while whisking continuously.
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div>
+                        <h4 class="title is-6">Step 7</h4>
+                        <div class="recipe-step-text">
+                            Return the mixture to the pan and simmer 2-3 minutes stirring continuously until thick then remove from heat.
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.5" data-base-unit="tsp" data-base-unit-plural="">0.5 tsp</span> <span class="recipe-ingredient-name">vanilla extract</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 8</h4>
+                            <div class="recipe-step-text">
+                                Stir in vanilla extract, pour mixture into the tart cases, and chill for 4 hours.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="400" data-base-unit="g" data-base-unit-plural="">400 g</span> <span class="recipe-ingredient-name">strawberries</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.5" data-base-unit="tbsp" data-base-unit-plural="">0.5 tbsp</span> <span class="recipe-ingredient-name">lemon juice</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="100" data-base-unit="g" data-base-unit-plural="">100 g</span> <span class="recipe-ingredient-name">sugar</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 9</h4>
+                            <div class="recipe-step-text">
+                                Combine ingredients to make a coulis. Bring to a boil, then sieve to remove seeds.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="200" data-base-unit="g" data-base-unit-plural="">200 g</span> <span class="recipe-ingredient-name">strawberries</span><span class="recipe-ingredient-note">, for topping</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.5" data-base-unit="tbsp" data-base-unit-plural="">0.5 tbsp</span> <span class="recipe-ingredient-name">lemon juice</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="100" data-base-unit="g" data-base-unit-plural="">100 g</span> <span class="recipe-ingredient-name">sugar</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 10</h4>
+                            <div class="recipe-step-text">
+                                Make a coulis sieve it and pour over tarts.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="200" data-base-unit="g" data-base-unit-plural="">200 g</span> <span class="recipe-ingredient-name">strawberries</span><span class="recipe-ingredient-note">, for topping</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 11</h4>
+                            <div class="recipe-step-text">
+                                Slice strawberries and arrange on top of tarts.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="content recipe-notes">
+                <h2 id="notes">Notes</h2>
+<ul>
+<li>The coulis and custard will soften the tarts due to remaining moisture so only add close to serving time.</li>
+</ul>
+
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+        </div><p class="footer text-center">Using <a href="https://github.com/deranjer/hugo-cookbook" target="_blank">Hugo Cookbook Theme</a>, <a href="https://fontawesome.com/license/free" target="_blank">Font Awesome Icons</a> and <a href="https://bulma.io/" target="_blank">Bulma CSS</a></p><script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>
