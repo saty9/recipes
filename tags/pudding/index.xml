@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pudding on My Cookbook</title>
+    <link>http://example.org/tags/pudding/</link>
+    <description>Recent content in Pudding on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 11:41:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/pudding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sticky Toffee Pudding</title>
+      <link>http://example.org/sticky_toffee_pudding/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/sticky_toffee_pudding/</guid>
+      <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The alternating addition of eggs, flour, and dates helps create a uniform batter texture.&lt;/li&gt;&#xA;&lt;li&gt;The sauce should be stirred constantly while boiling to prevent burning.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

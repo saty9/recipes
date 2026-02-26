@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My Cookbook</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 11:41:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Baking</title>
+      <link>http://example.org/tags/baking/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/tags/baking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dessert</title>
+      <link>http://example.org/tags/dessert/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/tags/dessert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fruit</title>
+      <link>http://example.org/tags/fruit/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/tags/fruit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ice Cream</title>
+      <link>http://example.org/tags/ice-cream/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/tags/ice-cream/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pudding</title>
+      <link>http://example.org/tags/pudding/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/tags/pudding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cookies</title>
+      <link>http://example.org/tags/cookies/</link>
+      <pubDate>Sat, 31 Jan 2026 11:20:00 +0000</pubDate>
+      <guid>http://example.org/tags/cookies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cake</title>
+      <link>http://example.org/tags/cake/</link>
+      <pubDate>Sat, 31 Jan 2026 11:08:00 +0000</pubDate>
+      <guid>http://example.org/tags/cake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ginger</title>
+      <link>http://example.org/tags/ginger/</link>
+      <pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
+      <guid>http://example.org/tags/ginger/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Preserve</title>
+      <link>http://example.org/tags/preserve/</link>
+      <pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
+      <guid>http://example.org/tags/preserve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rhubarb</title>
+      <link>http://example.org/tags/rhubarb/</link>
+      <pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
+      <guid>http://example.org/tags/rhubarb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dinner</title>
+      <link>http://example.org/tags/dinner/</link>
+      <pubDate>Sat, 24 Jan 2026 19:10:00 +0000</pubDate>
+      <guid>http://example.org/tags/dinner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meat</title>
+      <link>http://example.org/tags/meat/</link>
+      <pubDate>Sat, 24 Jan 2026 19:10:00 +0000</pubDate>
+      <guid>http://example.org/tags/meat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bread</title>
+      <link>http://example.org/tags/bread/</link>
+      <pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
+      <guid>http://example.org/tags/bread/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breakfast</title>
+      <link>http://example.org/tags/breakfast/</link>
+      <pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
+      <guid>http://example.org/tags/breakfast/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

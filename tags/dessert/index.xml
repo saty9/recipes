@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dessert on My Cookbook</title>
+    <link>http://example.org/tags/dessert/</link>
+    <description>Recent content in Dessert on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 11:41:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/dessert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry Ice Cream</title>
+      <link>http://example.org/raspberry_ice_cream/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/raspberry_ice_cream/</guid>
+      <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adjust the quantity of raspberries and sugar within the provided ranges based on your preferred sweetness and tartness.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Sticky Toffee Pudding</title>
+      <link>http://example.org/sticky_toffee_pudding/</link>
+      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+      <guid>http://example.org/sticky_toffee_pudding/</guid>
+      <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The alternating addition of eggs, flour, and dates helps create a uniform batter texture.&lt;/li&gt;&#xA;&lt;li&gt;The sauce should be stirred constantly while boiling to prevent burning.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Strawberry Tarts</title>
+      <link>http://example.org/strawberry_tarts/</link>
+      <pubDate>Sat, 31 Jan 2026 11:25:00 +0000</pubDate>
+      <guid>http://example.org/strawberry_tarts/</guid>
+      <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The coulis and custard will soften the tarts due to remaining moisture so only add close to serving time.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Browned Butter Cookies</title>
+      <link>http://example.org/browned_butter_cookies/</link>
+      <pubDate>Sat, 31 Jan 2026 11:20:00 +0000</pubDate>
+      <guid>http://example.org/browned_butter_cookies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pumpkin Squares</title>
+      <link>http://example.org/pumpkin_squares/</link>
+      <pubDate>Sat, 31 Jan 2026 11:08:00 +0000</pubDate>
+      <guid>http://example.org/pumpkin_squares/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chilli Brownies</title>
+      <link>http://example.org/chilli_brownies/</link>
+      <pubDate>Sat, 31 Jan 2026 10:35:00 +0000</pubDate>
+      <guid>http://example.org/chilli_brownies/</guid>
+      <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wear gloves when de seeding chillis to avoid burning sensation on your fingers for a few hours.&lt;/li&gt;&#xA;&lt;li&gt;Ensure the chocolate mixture has cooled sufficiently before adding to the eggs to avoid scrambling them.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Peanut Butter Cookies</title>
+      <link>http://example.org/peanut_butter_cookies/</link>
+      <pubDate>Sat, 24 Jan 2026 18:40:00 +0000</pubDate>
+      <guid>http://example.org/peanut_butter_cookies/</guid>
+      <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Chilling:&lt;/strong&gt; This helps prevent the cookies from spreading out too much in the oven and makes shaping them easier too.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
