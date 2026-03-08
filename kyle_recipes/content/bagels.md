@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Bagels"
+source: "[Joshua Weissman](https://www.joshuaweissman.com/recipes/best-new-york-bagels-recipe)"
 recipe_image: images/recipe-headers/homemade-bagels.webp
 image_width: 512
 image_height: 512
