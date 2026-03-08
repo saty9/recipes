@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indian on My Cookbook</title>
+    <link>https://recipes.kylecooke.me.uk/tags/indian/</link>
+    <description>Recent content in Indian on My Cookbook</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2026 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://recipes.kylecooke.me.uk/tags/indian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicken Tikka Chasni</title>
+      <link>https://recipes.kylecooke.me.uk/chicken_tikka_chasni/</link>
+      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://recipes.kylecooke.me.uk/chicken_tikka_chasni/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

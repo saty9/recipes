@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>My Cookbook | Saag Aloo Curry</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/logo.webp" width="200" height="50">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+                
+                    
+                    <a class="navbar-item" href="/">
+                    
+                    
+                    <i class="fas fa-home pr-2"></i> 
+                    Home
+                    </a>
+                
+                    
+                    <a class="navbar-item" href="/tags/">
+                    
+                    
+                    <i class="fas fa-tags pr-2"></i> 
+                    Categories
+                    </a>
+                
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">View Recipe</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=https://recipes.kylecooke.me.uk/%25!s%28%3cnil%3e%29 alt="Placeholder image">
+                </figure>
+                <div id="printButton" style="position: absolute; bottom: 0; right: 0;" class="is-rounded">
+                    <a href="/print/saag_aloo_curry/print.html" target="_blank"><i class="fas fa-print fa-3x"></i></a>
+                </div>
+            </div>
+            
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> Saag Aloo Curry</h1>
+                <p class="subtitle is-italic"> </p>
+                <div class="container has-text-right">
+                    
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="03-07-2026">Mar 7, 2026</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="https://recipes.kylecooke.me.uk/tags/curry">curry</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="https://recipes.kylecooke.me.uk/tags/vegan">vegan</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="https://recipes.kylecooke.me.uk/tags/potato">potato</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="https://recipes.kylecooke.me.uk/tags/dinner">dinner</a>
+
+
+
+<div class="content" style="margin-top: 0.5rem;">
+<strong>Source:</strong>
+<a href="https://www.bosh.tv/books">BOSH!</a>
+</div>
+
+
+                </div>
+                <hr>
+            </div>
+            <div class="container has-text-centered">    
+                <div class="columns is-mobile is-multiline">
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-concierge-bell fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Servings</p>
+        <div></div>
+        
+        
+        <div class="recipe-servings" data-base-servings="4">
+            <input id="servingsInput" class="input is-small" type="number" min="1" step="1" value="4" aria-label="Servings">
+            <span class="recipe-servings-label">servings</span>
+        </div>
+        
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-hourglass-half fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Prep time</p>
+        <div></div>
+        20 Minutes
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-temperature-high fa-lg"></i>
+        <div></div>
+        
+            <p class="has-text-weight-bold is-size-6">Cooking Time</p>
+        
+        <div></div>
+        
+            40 Minutes
+        
+    </div>
+    <div class="column is-half-mobile">
+        <i class="fas fa-fire fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Calories</p>
+        <div></div>
+        --- Kcal
+    </div>     
+</div>
+
+            </div>
+            <hr>
+            <p class="subtitle is-italic"> </p>
+            
+            <div class="content recipe-steps">
+                <h2>Steps</h2>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="450" data-base-unit="g" data-base-unit-plural="">450 g</span> <span class="recipe-ingredient-name">new potatoes</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 1</h4>
+                            <div class="recipe-step-text">
+                                Peel and halve. Bring to boil then simmer 12-15 minutes until tender, then drain.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="" data-base-unit-plural="">1</span> <span class="recipe-ingredient-name">white onion</span><span class="recipe-ingredient-note">, finely chopped</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="3" data-base-unit="" data-base-unit-plural="">3</span> <span class="recipe-ingredient-name">garlic cloves</span><span class="recipe-ingredient-note">, minced</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="2" data-base-unit="tbsp" data-base-unit-plural="">2 tbsp</span> <span class="recipe-ingredient-name">sunflower oil</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.25" data-base-unit="tsp" data-base-unit-plural="">0.25 tsp</span> <span class="recipe-ingredient-name">cumin seeds</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 2</h4>
+                            <div class="recipe-step-text">
+                                Cook the cumin seeds in oil until fragrant. Add onion and garlic; cook 15 minutes until soft.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="tsp" data-base-unit-plural="">1 tsp</span> <span class="recipe-ingredient-name">turmeric</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="2" data-base-unit="tsp" data-base-unit-plural="">2 tsp</span> <span class="recipe-ingredient-name">garam masala</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.5" data-base-unit="tsp" data-base-unit-plural="">0.5 tsp</span> <span class="recipe-ingredient-name">salt</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 3</h4>
+                            <div class="recipe-step-text">
+                                Stir in potatoes, spices, and salt. Cook until coated and golden, then set aside.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="400" data-base-unit="g" data-base-unit-plural="">400 g</span> <span class="recipe-ingredient-name">baby leaf spinach</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="75" data-base-unit="ml" data-base-unit-plural="">75 ml</span> <span class="recipe-ingredient-name">water</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 4</h4>
+                            <div class="recipe-step-text">
+                                Roughly chop 100g spinach and finely chop another 100g. Blend the remaining 200g spinach with the water until smooth.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="" data-base-unit-plural="">1</span> <span class="recipe-ingredient-name">white onion</span><span class="recipe-ingredient-note">, finely diced</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="2" data-base-unit="" data-base-unit-plural="">2</span> <span class="recipe-ingredient-name">garlic cloves</span><span class="recipe-ingredient-note">, minced</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="2" data-base-unit="tbsp" data-base-unit-plural="">2 tbsp</span> <span class="recipe-ingredient-name">sunflower oil</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 5</h4>
+                            <div class="recipe-step-text">
+                                Heat oil. Cook onion and garlic for 10-15 minutes until soft.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="" data-base-unit-plural="">1</span> <span class="recipe-ingredient-name">fresh chilli</span><span class="recipe-ingredient-note">, finely chopped</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="2" data-base-unit="cm" data-base-unit-plural="">2 cm</span> <span class="recipe-ingredient-name">fresh ginger</span><span class="recipe-ingredient-note">, finely chopped</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 6</h4>
+                            <div class="recipe-step-text">
+                                Add cook 2 minutes
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="175" data-base-unit="g" data-base-unit-plural="">175 g</span> <span class="recipe-ingredient-name">medium tomatoes</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 7</h4>
+                            <div class="recipe-step-text">
+                                Add cook 3-5 minutes until soft
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="2" data-base-unit="tbsp" data-base-unit-plural="">2 tbsp</span> <span class="recipe-ingredient-name">garam masala</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="tsp" data-base-unit-plural="">1 tsp</span> <span class="recipe-ingredient-name">turmeric</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="tbsp" data-base-unit-plural="">1 tbsp</span> <span class="recipe-ingredient-name">ground coriander</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="tsp" data-base-unit-plural="">1 tsp</span> <span class="recipe-ingredient-name">ground fenugreek</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="1" data-base-unit="tsp" data-base-unit-plural="">1 tsp</span> <span class="recipe-ingredient-name">salt</span><span class="recipe-ingredient-note">, plus extra to taste</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.5" data-base-unit="tsp" data-base-unit-plural="">0.5 tsp</span> <span class="recipe-ingredient-name">sugar</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 8</h4>
+                            <div class="recipe-step-text">
+                                Stir in
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                <li>roughly chopped spinnach</li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 9</h4>
+                            <div class="recipe-step-text">
+                                Add and wilt
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                <li>finely chopped spinnach</li>
+                                
+                                
+                                
+                                
+                                <li>blended spinach</li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 10</h4>
+                            <div class="recipe-step-text">
+                                Add and mix. Simmer until thick (10 minutes).
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="box recipe-step">
+                    
+                    <div class="columns is-vcentered">
+                        <div class="column is-one-third">
+                            <h4 class="title is-6">Ingredients</h4>
+                            <ul class="recipe-ingredients">
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="100" data-base-unit="ml" data-base-unit-plural="">100 ml</span> <span class="recipe-ingredient-name">cream</span>
+                                </li>
+                                
+                                
+                                
+                                
+                                <li>Potatoes</li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                <li class="recipe-ingredient" data-scalable="true">
+                                    <span class="recipe-ingredient-amount" data-base-amount="0.5" data-base-unit="" data-base-unit-plural="">0.5</span> <span class="recipe-ingredient-name">lemon</span><span class="recipe-ingredient-note">, juiced</span>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h4 class="title is-6">Step 11</h4>
+                            <div class="recipe-step-text">
+                                Add cream and potatoes bring to simmer. Finish with lemon juice and serve
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+        </div><p class="footer text-center">Using <a href="https://github.com/deranjer/hugo-cookbook" target="_blank">Hugo Cookbook Theme</a>, <a href="https://fontawesome.com/license/free" target="_blank">Font Awesome Icons</a> and <a href="https://bulma.io/" target="_blank">Bulma CSS</a></p><script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

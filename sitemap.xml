@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://recipes.kylecooke.me.uk/chicken_tikka_chasni/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/curry/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/dinner/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/indian/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/meat/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/potato/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/saag_aloo_curry/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/vegan/</loc>
+    <lastmod>2026-03-07T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://recipes.kylecooke.me.uk/tags/baking/</loc>
     <lastmod>2026-01-31T11:41:00+00:00</lastmod>
   </url><url>
@@ -14,9 +44,6 @@
     <loc>https://recipes.kylecooke.me.uk/tags/ice-cream/</loc>
     <lastmod>2026-01-31T11:41:00+00:00</lastmod>
   </url><url>
-    <loc>https://recipes.kylecooke.me.uk/</loc>
-    <lastmod>2026-01-31T11:41:00+00:00</lastmod>
-  </url><url>
     <loc>https://recipes.kylecooke.me.uk/tags/pudding/</loc>
     <lastmod>2026-01-31T11:41:00+00:00</lastmod>
   </url><url>
@@ -24,9 +51,6 @@
     <lastmod>2026-01-31T11:41:00+00:00</lastmod>
   </url><url>
     <loc>https://recipes.kylecooke.me.uk/sticky_toffee_pudding/</loc>
-    <lastmod>2026-01-31T11:41:00+00:00</lastmod>
-  </url><url>
-    <loc>https://recipes.kylecooke.me.uk/tags/</loc>
     <lastmod>2026-01-31T11:41:00+00:00</lastmod>
   </url><url>
     <loc>https://recipes.kylecooke.me.uk/strawberry_tarts/</loc>
@@ -62,16 +86,19 @@
     <loc>https://recipes.kylecooke.me.uk/rhubarb_compote/</loc>
     <lastmod>2026-01-31T10:03:00+00:00</lastmod>
   </url><url>
-    <loc>https://recipes.kylecooke.me.uk/tags/dinner/</loc>
-    <lastmod>2026-01-24T19:10:00+00:00</lastmod>
-  </url><url>
-    <loc>https://recipes.kylecooke.me.uk/tags/meat/</loc>
-    <lastmod>2026-01-24T19:10:00+00:00</lastmod>
-  </url><url>
     <loc>https://recipes.kylecooke.me.uk/venison_cottage_pie/</loc>
     <lastmod>2026-01-24T19:10:00+00:00</lastmod>
   </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/condiment/</loc>
+    <lastmod>2026-01-24T18:40:00+00:00</lastmod>
+  </url><url>
     <loc>https://recipes.kylecooke.me.uk/peanut_butter_cookies/</loc>
+    <lastmod>2026-01-24T18:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/tags/pizza/</loc>
+    <lastmod>2026-01-24T18:40:00+00:00</lastmod>
+  </url><url>
+    <loc>https://recipes.kylecooke.me.uk/red_pepper_pizza_glaze/</loc>
     <lastmod>2026-01-24T18:40:00+00:00</lastmod>
   </url><url>
     <loc>https://recipes.kylecooke.me.uk/bagels/</loc>
