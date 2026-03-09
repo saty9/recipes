@@ -27,7 +27,7 @@ steps:
     text: "Add beat 10 seconds until just combined."
     
   - ingredients:
-      - amount: 2
+      - amount: 2.5
         unit: "cup"
         item: "caster sugar"
       - amount: 0.75
@@ -41,7 +41,7 @@ steps:
     text: "add beat until smooth (10-15 seconds)."
     
   - ingredients:
-      - amount: 3
+      - amount: 5
         item: "Large eggs"
     text: "Add eggs one at a time, beating on low until just combined."
     
@@ -51,7 +51,7 @@ steps:
   - ingredients:
       - amount: 16
         item: "mini tortillas"
-    text: "Move cheesecake to chopping board. Cut cheesecake once down center lengthwise athen cut rectangular bars and wrap them in mini tortillas. (Use toothpicks to hold tortilla in place)."
+    text: "Move cheesecake to chopping board. Cut cheesecake once down center lengthwise then cut rectangular bars and wrap them in mini tortillas (burrito style). (Use toothpicks to hold tortilla in place)."
       
   - text: "Deep fry tortillas until golden brown (2 minutes at 180°C)."
   - text: "Debone of any toothpicks and cut along diagonal to serve."
