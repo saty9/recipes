@@ -1,152 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on My Cookbook</title>
-    <link>https://recipes.kylecooke.me.uk/tags/</link>
-    <description>Recent content in Tags on My Cookbook</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://recipes.kylecooke.me.uk/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Condiment</title>
-      <link>https://recipes.kylecooke.me.uk/tags/condiment/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/condiment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Preserve</title>
-      <link>https://recipes.kylecooke.me.uk/tags/preserve/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/preserve/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Baking</title>
-      <link>https://recipes.kylecooke.me.uk/tags/baking/</link>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/baking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dessert</title>
-      <link>https://recipes.kylecooke.me.uk/tags/dessert/</link>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/dessert/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Curry</title>
-      <link>https://recipes.kylecooke.me.uk/tags/curry/</link>
-      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/curry/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dinner</title>
-      <link>https://recipes.kylecooke.me.uk/tags/dinner/</link>
-      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/dinner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Indian</title>
-      <link>https://recipes.kylecooke.me.uk/tags/indian/</link>
-      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/indian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meat</title>
-      <link>https://recipes.kylecooke.me.uk/tags/meat/</link>
-      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/meat/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Potato</title>
-      <link>https://recipes.kylecooke.me.uk/tags/potato/</link>
-      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/potato/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vegan</title>
-      <link>https://recipes.kylecooke.me.uk/tags/vegan/</link>
-      <pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/vegan/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fruit</title>
-      <link>https://recipes.kylecooke.me.uk/tags/fruit/</link>
-      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/fruit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ice Cream</title>
-      <link>https://recipes.kylecooke.me.uk/tags/ice-cream/</link>
-      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/ice-cream/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pudding</title>
-      <link>https://recipes.kylecooke.me.uk/tags/pudding/</link>
-      <pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/pudding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cookies</title>
-      <link>https://recipes.kylecooke.me.uk/tags/cookies/</link>
-      <pubDate>Sat, 31 Jan 2026 11:20:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/cookies/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cake</title>
-      <link>https://recipes.kylecooke.me.uk/tags/cake/</link>
-      <pubDate>Sat, 31 Jan 2026 11:08:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/cake/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ginger</title>
-      <link>https://recipes.kylecooke.me.uk/tags/ginger/</link>
-      <pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/ginger/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rhubarb</title>
-      <link>https://recipes.kylecooke.me.uk/tags/rhubarb/</link>
-      <pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/rhubarb/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pizza</title>
-      <link>https://recipes.kylecooke.me.uk/tags/pizza/</link>
-      <pubDate>Sat, 24 Jan 2026 18:40:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/pizza/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bread</title>
-      <link>https://recipes.kylecooke.me.uk/tags/bread/</link>
-      <pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/bread/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Breakfast</title>
-      <link>https://recipes.kylecooke.me.uk/tags/breakfast/</link>
-      <pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
-      <guid>https://recipes.kylecooke.me.uk/tags/breakfast/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on My Cookbook</title>
+		<link>https://recipes.kylecooke.me.uk/tags/</link>
+		<description>Recent content in Tags on My Cookbook</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 25 Jul 2026 08:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://recipes.kylecooke.me.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Baking</title>
+				<link>https://recipes.kylecooke.me.uk/tags/baking/</link>
+				<pubDate>Sat, 25 Jul 2026 08:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/baking/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cookies</title>
+				<link>https://recipes.kylecooke.me.uk/tags/cookies/</link>
+				<pubDate>Sat, 25 Jul 2026 08:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/cookies/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Dessert</title>
+				<link>https://recipes.kylecooke.me.uk/tags/dessert/</link>
+				<pubDate>Sat, 25 Jul 2026 08:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/dessert/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Condiment</title>
+				<link>https://recipes.kylecooke.me.uk/tags/condiment/</link>
+				<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/condiment/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Preserve</title>
+				<link>https://recipes.kylecooke.me.uk/tags/preserve/</link>
+				<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/preserve/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Curry</title>
+				<link>https://recipes.kylecooke.me.uk/tags/curry/</link>
+				<pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/curry/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Dinner</title>
+				<link>https://recipes.kylecooke.me.uk/tags/dinner/</link>
+				<pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/dinner/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Indian</title>
+				<link>https://recipes.kylecooke.me.uk/tags/indian/</link>
+				<pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/indian/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Meat</title>
+				<link>https://recipes.kylecooke.me.uk/tags/meat/</link>
+				<pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/meat/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Potato</title>
+				<link>https://recipes.kylecooke.me.uk/tags/potato/</link>
+				<pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/potato/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Vegan</title>
+				<link>https://recipes.kylecooke.me.uk/tags/vegan/</link>
+				<pubDate>Sat, 07 Mar 2026 12:00:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/vegan/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fruit</title>
+				<link>https://recipes.kylecooke.me.uk/tags/fruit/</link>
+				<pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/fruit/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ice Cream</title>
+				<link>https://recipes.kylecooke.me.uk/tags/ice-cream/</link>
+				<pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/ice-cream/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pudding</title>
+				<link>https://recipes.kylecooke.me.uk/tags/pudding/</link>
+				<pubDate>Sat, 31 Jan 2026 11:41:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/pudding/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cake</title>
+				<link>https://recipes.kylecooke.me.uk/tags/cake/</link>
+				<pubDate>Sat, 31 Jan 2026 11:08:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/cake/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ginger</title>
+				<link>https://recipes.kylecooke.me.uk/tags/ginger/</link>
+				<pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/ginger/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Rhubarb</title>
+				<link>https://recipes.kylecooke.me.uk/tags/rhubarb/</link>
+				<pubDate>Sat, 31 Jan 2026 10:03:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/rhubarb/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Pizza</title>
+				<link>https://recipes.kylecooke.me.uk/tags/pizza/</link>
+				<pubDate>Sat, 24 Jan 2026 18:40:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/pizza/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Bread</title>
+				<link>https://recipes.kylecooke.me.uk/tags/bread/</link>
+				<pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/bread/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Breakfast</title>
+				<link>https://recipes.kylecooke.me.uk/tags/breakfast/</link>
+				<pubDate>Sat, 24 Jan 2026 18:36:00 +0000</pubDate>
+				<guid>https://recipes.kylecooke.me.uk/tags/breakfast/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
